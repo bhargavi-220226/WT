@@ -9,8 +9,9 @@ body {
 
 /* Header */
 header {
-    background-color: black;
+    background-color: rgb(150, 61, 113);
     color: goldenrod;
+    font-family: 'Cinzel', serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -22,20 +23,20 @@ header {
 
 header h1 {
     font-family: 'Cinzel', serif;
-    font-size: 28px;
+    font-size: 50px;
 }
 
 header nav {
     display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
+    gap: 30px;
+    flex-wrap:wrap;
 }
 
 header nav a {
-    color: white;
+    color: rgb(240, 237, 237);
     text-decoration: none;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
     transition: color 0.3s;
 }
 
@@ -64,11 +65,11 @@ header nav a:hover {
 .hero p {
     font-size: 20px;
     margin-bottom: 25px;
-    color: #fff;
+    color: #ffffff;
 }
 
 .btn {
-    background: goldenrod;
+    background: rgb(175, 147, 74);
     color: black;
     padding: 12px 25px;
     text-decoration: none;
